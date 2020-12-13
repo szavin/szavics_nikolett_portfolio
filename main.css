@@ -1,0 +1,130 @@
+
+body{
+	 
+
+	font-size: 32px;
+	font-family: 'Texturina', serif;
+	font-weight: 300;
+	opacity: :0.9;
+
+
+
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+
+body{
+	display: grid;
+	grid-template-areas: 
+		"fejléc"
+		"kontent"
+		"lábléc"
+	;
+	grid-template-rows: max-content 1fr max-content;
+	min-height:  100vh;
+	background-attachment:fixed;
+	background-size: cover; 
+	background-position: center;
+	
+	opacity: 0.92;
+	
+
+
+}
+img{
+	max-width: 90%;
+	min-width: 90%
+	margin-left:2rem;
+
+} 
+
+header{
+		grid-area: fejléc;
+		font-weight: 700;
+		margin-right: 3rem 3rem 3rem;
+		color:PapayaWhip;
+		text-shadow: 12px 15px 19px #CEBAB8;
+		background-color: LightSalmon;
+	
+}
+
+footer{
+ 	text-decoration-color: PapayaWhip;
+ 	grid-area: lábléc;
+ 	opacity: 0.8;
+ 	line-height: 0,6rem;
+
+}
+span{
+	text-decoration-color: black;
+}
+
+a{
+	color:PapayaWhip;
+	font-size: 32px;
+}
+header{
+		line-height: 5rem;
+		font-size: 1rem;
+		text-align: left;
+		padding: 1rem 1rem 1rem 1rem;
+		
+		position:relative;
+	}
+
+	
+nav{
+		
+		font-size: 30px;
+		font-weight: 700;
+		display:inline-block;
+		margin: 2rem 2rem;
+		padding-right: 2rem;
+		word-spacing: 20px;
+		outline: none;
+}
+
+.magamrl{
+	grid-area: kontent;
+	position: middle;
+	font-size: 16px;
+	margin: 3rem 2rem 3rem 3rem;
+	color: PapayaWhip;
+
+}
+
+.maines{
+	font-size: 25px;
+	font-family: 'Texturina', serif;
+	font-weight: 300;
+	opacity: :0.75;
+	grid-area:kontent;
+	position: middle;
+	margin: 4rem 3rem 3rem 3rem;
+	background-color:PapayaWhip;
+}
+
+.leírás{
+	 line-height: 1rem;
+		font-size: 16px;
+		text-align: left;
+		padding: 1rem ;
+}		
+.házikós{
+	font-size: 26px;
+	font-family: 'Texturina', serif;
+	font-weight: 500;
+	opacity: :0.8;
+	grid-area:kontent;
+	position: middle;
+	margin: 3rem 3rem 3rem 3rem;
+}
+
+
